@@ -1,29 +1,32 @@
-// Configuration settings for trap54 addon
+/**
+ * Configuration for trap54 Meteor Addon
+ * Customize detection and rendering behavior
+ */
 
 export const CONFIG = {
   // Detection settings
   detection: {
     enabled: true,
     checkInterval: 100, // milliseconds between detection checks
-    playerDetectionRadius: 64, // blocks
-    spawnerDetectionRadius: 64, // blocks
+    playerDetectionRadius: 256, // blocks
+    spawnerDetectionRadius: 512, // blocks
   },
 
   // Rendering settings
   rendering: {
     enabled: true,
-    chunkColor: 0x9900FF, // Purple color (RGB hex)
-    chunkOpacity: 0.5,
-    chunkScale: 1.0,
-    renderDistance: 128, // blocks
+    chunkColor: 0x9900FF, // Purple in hex (RGB)
+    chunkOpacity: 0.8, // 0.0 to 1.0
+    chunkScale: 1.0, // 1.0 = normal size
+    fillChunks: true, // Draw filled cubes in addition to wireframe
   },
 
-  // Target types
+  // Target detection filters
   targets: {
-    players: true,
-    skeletonSpawners: true,
+    players: true, // Detect and highlight players
+    skeletonSpawners: true, // Detect and highlight skeleton spawners
   },
 
-  // Logging
-  debug: false,
+  // Debug settings
+  debug: true, // Enable debug logging
 };
