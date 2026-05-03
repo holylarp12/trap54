@@ -13,12 +13,22 @@
     "addon",
     "detection",
     "spawner",
-    "visualization"
+    "visualization",
+    "1.21.11"
   ],
   "author": "holylarp12",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/holylarp12/trap54.git"
+  },
+  "meteorAddon": {
+    "name": "trap54",
+    "version": "1.0.0",
+    "author": "holylarp12",
+    "description": "Detects players and skeleton spawners, highlighting them with purple chunks",
+    "gameVersion": "1.21.11",
+    "mainClass": "src/main.js",
+    "category": "Utility"
   }
 }
