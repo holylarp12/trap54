@@ -1,0 +1,24 @@
+{
+  "name": "trap54",
+  "version": "1.0.0",
+  "description": "A Meteor addon that detects players and skeleton spawners and highlights them with a purple chunk",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "meteor",
+    "addon",
+    "detection",
+    "spawner",
+    "visualization"
+  ],
+  "author": "holylarp12",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/holylarp12/trap54.git"
+  }
+}
