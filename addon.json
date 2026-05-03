@@ -1,0 +1,13 @@
+{
+  "name": "trap54",
+  "version": "1.0.0",
+  "author": "holylarp12",
+  "description": "Detects players and skeleton spawners, highlighting them with purple chunks",
+  "gameVersion": "1.21.11",
+  "mainClass": "src/main.js",
+  "category": "Utility",
+  "dependencies": [],
+  "entrypoint": "src/main.js",
+  "mixins": [],
+  "accessWideners": []
+}
